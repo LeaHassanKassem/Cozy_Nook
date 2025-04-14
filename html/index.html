@@ -1,0 +1,146 @@
+
+ <!--About the devided work : everyonw worked equally on all of the html pages that whyy we did not specify 2 pages for each -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CSC443 Project</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+   
+
+</head>
+
+<body>
+   
+    <header>
+        <div class="header-content">
+            <span class="logo">THE COZY NOOK</span>
+            
+            <a href="/html/signin.html" class="sign-in">Sign Up/In</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <span class="menu-toggle" id="menu-toggle">&#9776;</span> <!-- ☰ -->
+        <ul class="nav-links" id="nav-links">
+            <li><a href="/html/index.html">Home</a></li>
+            <li><a href="/html/services.html">Services</a></li>
+            <li><a href="/html/team.html">About Us</a></li>
+            <li><a href="/html/gallery.html">Gallery</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+        </ul>
+        <div class="cart-container">
+            <a href="/html/cart.html" class="cart-link" style="text-decoration: none;">🛒 <span class="cart-count">0</span></a>
+        </div>
+    </nav>
+    </nav>
+    
+    
+   
+    <section class="hero">
+        <h1>Welcome to The Cozy Nook</h1>
+        <p>Where comfort meets style. Discover handcrafted furniture for your dream home.</p>
+        <a href="/html/gallery.html" class="cta-button">Explore Collection</a>
+    </section>
+    
+  
+<section class="featured-products">
+    <h2>Featured Collections</h2>
+    <div class="product-grid">
+        <div class="product" data-category="coffee-table">
+            <img src="/images/cofee.jpg" alt="Modern Coffee Table">
+            <h3>Modern Coffee Table</h3>
+            <p>Perfect for a cozy setup.</p>
+        </div>
+        <div class="product" data-category="sofa">
+            <img src="/images/sofa4.jpg" alt="Luxury Sofa">
+            <h3>Luxury Sofa</h3>
+            <p>Elegant and comfortable design.</p>
+        </div>
+        <div class="product" data-category="chair">
+            <img src="/images/chair.jpg" alt="Stylish Chair">
+            <h3>Stylish Chair</h3>
+            <p>Relax in style and comfort.</p>
+        </div>
+    </div>
+</section>
+
+    
+    
+<section class="testimonials">
+    <h2>What Our Customers Say</h2>
+  
+    <div class="testimonial-slider">
+      <button class="arrow left" onclick="prevSlide()">❮</button>
+  
+      <div class="testimonial-track">
+  
+        <div class="testimonial">
+          <p>"The Cozy Nook's furniture transformed my home into a cozy paradise! Highly recommend!"</p>
+          <h4>- Emily R.</h4>
+        </div>
+  
+        <div class="testimonial">
+          <p>"I was blown away by the quality and design of their pieces. The delivery was fast and hassle-free!"</p>
+          <h4>- Daniel M.</h4>
+        </div>
+  
+        <div class="testimonial">
+          <p>"Beautiful craftsmanship and super comfortable. My living room finally feels complete!"</p>
+          <h4>- Sara L.</h4>
+        </div>
+  
+        <div class="testimonial">
+          <p>"Customer service was fantastic! They helped me choose the perfect pieces for my small apartment."</p>
+          <h4>- Mark T.</h4>
+        </div>
+  
+        <div class="testimonial">
+          <p>"Affordable, stylish, and durable—exactly what I was looking for. I get compliments all the time!"</p>
+          <h4>- Jenna F.</h4>
+        </div>
+  
+        <div class="testimonial">
+          <p>"I love how customizable the furniture is. The modular sofa fits perfectly in my space!"</p>
+          <h4>- Omar K.</h4>
+        </div>
+  
+      </div>
+  
+      <button class="arrow right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+    
+    <section class="newsletter">
+        <h2>Stay Updated!</h2>
+        <p>Subscribe to our newsletter for exclusive offers.</p>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    
+    <div class="floating-icons">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="/images/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="/images/Instagram_Glyph_Gradient.png" alt="Instagram">
+        </a>
+    </div>
+    
+    <a href="https://wa.me/YOUR_PHONE_NUMBER" class="whatsapp-float" target="_blank">
+        <img src="/images/whatsapp-icon.png" alt="Chat with us">
+    </a>
+    
+    <footer>
+        <p>For more information, contact us at: support@THENOOK.com</p>
+        <p>&copy; 2025 THE Nook | All rights reserved.</p>
+    </footer>
+    <script src="/js/index.js"></script>
+</body>
+</html>
